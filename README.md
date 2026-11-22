@@ -9,6 +9,11 @@ player's own music kept running underneath.
 
 **Version 1.1**
 
+> **Just want to play?** Download the [release](../../releases) zip and copy the
+> files to `/.rockbox/rocks/games/` — **no building and no patching required.**
+> The `rockbox-integration/` patches are **only** for developers compiling the
+> plugin from source.
+
 > ## ⚠️ Read this first — compatibility
 >
 > - **Device: iPod Classic 6th gen (`ipod6g`) only.** The whole thing was
@@ -16,7 +21,7 @@ player's own music kept running underneath.
 >   controls and timing are tuned for its clickwheel and screen. It is **not**
 >   built or tested for any other iPod or Rockbox player — other targets may
 >   compile from source but are entirely unsupported.
-> - **Rockbox build: `20261114` (2026‑11‑14).** The prebuilt
+> - **Rockbox build:`20261114` (2026‑11‑14).** The prebuilt
 >   `Gravity Defied.rock` was compiled against this Rockbox release. Rockbox
 >   plugins are linked to a specific internal **plugin API version**, so a `.rock`
 >   built for one Rockbox build can be **refused by a different one** (you'll see
