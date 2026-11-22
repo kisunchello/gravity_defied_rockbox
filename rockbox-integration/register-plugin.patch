@@ -1,0 +1,21 @@
+diff --git a/apps/plugins/CATEGORIES b/apps/plugins/CATEGORIES
+index f0beefc..8a07689 100644
+--- a/apps/plugins/CATEGORIES
++++ b/apps/plugins/CATEGORIES
+@@ -1,4 +1,5 @@
+ 2048,games
++gravity,games
+ alpine_cdc,apps
+ alarmclock,apps
+ announce_status,demos
+diff --git a/apps/plugins/SUBDIRS b/apps/plugins/SUBDIRS
+index e3c8b05..cab487c 100644
+--- a/apps/plugins/SUBDIRS
++++ b/apps/plugins/SUBDIRS
+@@ -1,5 +1,6 @@
+ /* For all targets */
+ shortcuts
++gravity
+ text_viewer
+ 
+ /* For various targets... */

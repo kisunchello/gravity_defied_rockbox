@@ -1,0 +1,13 @@
+diff --git a/tools/rockboxdev.sh b/tools/rockboxdev.sh
+index 0b1b121..1c28089 100755
+--- a/tools/rockboxdev.sh
++++ b/tools/rockboxdev.sh
+@@ -471,7 +471,7 @@ build() {
+ 
+     # GCC is special..
+     if [ "$toolname" == "gcc" ]; then
+-	configure_params="--enable-languages=c --disable-libssp $configure_params"
++	configure_params="--enable-languages=c,c++ --disable-libssp --disable-libstdcxx $configure_params"
+ 
+         # For Apple targets only
+         if [ "$system" == "Darwin" ] ; then
