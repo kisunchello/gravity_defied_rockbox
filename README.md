@@ -9,6 +9,23 @@ player's own music kept running underneath.
 
 **Version 1.1**
 
+> ## ⚠️ Read this first — compatibility
+>
+> - **Device: iPod Classic 6th gen (`ipod6g`) only.** The whole thing was
+>   developed, built and tested **exclusively** on the iPod Classic 6G. The UI,
+>   controls and timing are tuned for its clickwheel and screen. It is **not**
+>   built or tested for any other iPod or Rockbox player — other targets may
+>   compile from source but are entirely unsupported.
+> - **Rockbox build: stable `20261114` (2026‑11‑14).** The prebuilt
+>   `Gravity Defied.rock` was compiled against this Rockbox release. Rockbox
+>   plugins are linked to a specific internal **plugin API version**, so a `.rock`
+>   built for one Rockbox build can be **refused by a different one** (you'll see
+>   an *"Incompatible version"* message, or it simply won't start). **Earlier
+>   Rockbox versions will most likely not run this plugin.** If your Rockbox
+>   differs, either install the matching stable build **or** rebuild the plugin
+>   from source against your own Rockbox checkout (see
+>   [`rockbox-integration/INSTALL.md`](rockbox-integration/INSTALL.md)).
+
 > ⚠️ **Unofficial fan port.** This project is not affiliated with, endorsed by,
 > or connected to Codebrew Software. "Gravity Defied" and all rights to the
 > original game, its name and brand belong to their respective owners. This is a
@@ -20,9 +37,10 @@ player's own music kept running underneath.
 
 ## Status
 
-Built and confirmed running on a real iPod Classic 6G (official Rockbox stable
-build). Other Rockbox colour targets may compile but are untested — the UI and
-controls are tuned for the iPod 6G clickwheel.
+Built and confirmed running on a real **iPod Classic 6G** against Rockbox stable
+build **`20261114`** (2026‑11‑14). Other Rockbox targets / builds may compile but
+are untested and may refuse to load the prebuilt binary — see the compatibility
+note above.
 
 ## Install (prebuilt — easiest)
 
@@ -61,6 +79,16 @@ Drop any Gravity Defied `.mrg` level pack into
 `/.rockbox/rocks/games/gravity/mods/` and it shows up under the **Mods** menu.
 Mod tracks aren't scored on the main leaderboard, but per‑pack completion marks
 are remembered.
+
+**Where to get level packs:** the community has thousands of custom `.mrg`
+tracks. Two good sources:
+
+- <https://gdmod.ru/tracks>
+- <https://gdtr.net/levels/>
+
+Download the `.mrg` files and copy them into the `mods/` folder above. (These are
+third‑party sites, not affiliated with this project; grab the packs at your own
+discretion.)
 
 ## Build from source
 
