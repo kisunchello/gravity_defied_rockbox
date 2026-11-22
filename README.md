@@ -35,13 +35,6 @@ player's own music kept running underneath.
 
 ---
 
-## Status
-
-Built and confirmed running on a real **iPod Classic 6G** against Rockbox stable
-build **`20261114`** (2026‑11‑14). Other Rockbox targets / builds may compile but
-are untested and may refuse to load the prebuilt binary — see the compatibility
-note above.
-
 ## Install (prebuilt — easiest)
 
 You need a working [Rockbox](https://www.rockbox.org/) install on your iPod
