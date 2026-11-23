@@ -7,6 +7,11 @@ bikes (100–325cc), per‑track top‑3 leaderboards, a splash screen, an anima
 attract demo behind the menu, custom `.mrg` level packs ("Mods"), and the
 player's own music kept running underneath.
 
+<p align="center">
+  <img src="assets/banner.jpg" width="700">
+</p>
+
+
 **Version 1.1**
 
 > **Just want to play?** Download the [release](../../releases) zip and copy the
